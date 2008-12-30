@@ -1,0 +1,3 @@
+bash> cd /path/to/module-source/
+bash> echo "obj-m += dummy_proc.ko" > Makefile
+bash> make -C /usr/src/linux/ M=/root/src/dummy_proc modules
